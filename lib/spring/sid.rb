@@ -36,7 +36,7 @@ module Spring
     end
 
     def self.pgid
-      p sid
+      p "sid is #{sid}"
       Process.getpgid(sid)
     end
   end
