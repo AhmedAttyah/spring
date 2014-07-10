@@ -36,7 +36,8 @@ module Spring
     end
 
     def self.pgid
-      p Process.getpgid(sid)
+      p sid
+      Process.getpgid(sid)
     end
   end
 end
